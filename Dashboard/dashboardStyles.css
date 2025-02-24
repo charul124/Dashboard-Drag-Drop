@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #062F6F;
+}
+
+
+#publishButton{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #5779E8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#publishButton:hover{
+    background-color: #062F6F;
+}
+
+
+.container{
+    display: flex;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+#widget-area{
+    margin: 10px;
+    width: 20%;
+    display: block;
+    align-items: center;
+}
+
+
+.widget-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.widget-form p{
+    height: fit-content; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 3px; 
+    background-color: #D0DBF8; 
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.widget-form img{
+    height: fit-content; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 3px; 
+    background-color: #D0DBF8; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.widget-form input{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #D0DBF8;
+    color: #062F6F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+#dashboard-area{
+    margin: 10px;
+}
+
+table{
+    padding: 10px;
+    font-size: smaller;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+.tablecontainer {
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px #cecece;
+    overflow: auto;
+    resize: both;
+}
+
+.search{
+    width: 80%;
+}
+
+.tablefilter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+table th{
+    cursor: pointer;
+    background-color: #5779E8;
+    color: white;
+    padding: 10px;
+}
+table th:hover{
+    background-color: #062F6F;
+}
+
+td {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid #ddd; 
+    text-align: center;
+}
+
+/* charts */
+.chartCard {
+    position: absolute;
+    box-shadow: 2px 2px 5px 2px #cecece;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    resize: both;
+    overflow: auto;
+}
+#filterbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#selectFilter{
+    display: flex;
+    gap: 5px;
+}
+.chartDelete, #tbldelete{
+    background-color: #D5074D;
+    border: none;
+    color:#ffffff;
+    border-radius: 5px;
+}
